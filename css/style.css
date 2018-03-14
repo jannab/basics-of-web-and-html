@@ -1,23 +1,41 @@
 h1 {
-	color: white;
+	text-align: center;
+	color: #294860;
 }
 
 body {
-	background-color: black;
+	font-family: Helvetica;
 }
 
 .lesson {
-	background-color: grey;
+	background-color: #294860;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+}
+
+.lesson-title {
+	margin: 10px;
 }
 
 .concept {
-	background-color: white;
+	background-color: #DFEAF1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
 }
 
 .concept-title {
 	font-size: 20px;
-	font-weight: bold;
+	margin: 8px;
 	text-align: center;
+	color: #294860;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;
 }
 
 .italic {
@@ -26,4 +44,5 @@ body {
 
 .bold {
 	font-weight: bold;
+	color: #294860;
 }
